@@ -1,0 +1,45 @@
+/* Gaya umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+    color: #0b0202;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tautan navigasi */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #020263;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #020263;
+}
+
+/* Wrapper untuk tautan */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}

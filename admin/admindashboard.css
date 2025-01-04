@@ -1,0 +1,65 @@
+/* Admin Dashboard CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #020263;
+    color: #d2cdcd;
+}
+
+h1 {
+    text-align: center;
+    color: #020263;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #f6f7f9;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-top: 1px solid #ddd;
+}
+
+/* Add spacing for links */
+.link-group {
+    text-align: center;
+    margin: 1.5rem 0;
+}

@@ -1,0 +1,3 @@
+admin - P@ssw0rd
+support1 - P@ssw0rd
+user1 - P@ssw0rd

@@ -1,0 +1,91 @@
+/* Gaya umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #110202;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk pesan error dan sukses */
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+p[style="color: red;"] {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+p[style="color: green;"] {
+    color: #5cb85c;
+    font-weight: bold;
+}
+
+/* Gaya untuk formulir */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+input[type="text"], textarea, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Tombol kembali */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #020263;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: #5a6268;
+}

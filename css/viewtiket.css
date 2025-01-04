@@ -1,0 +1,93 @@
+/* Gaya umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: left;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk informasi tiket */
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #555;
+}
+
+/* Balasan tiket */
+div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div p {
+    margin: 0;
+}
+
+/* Formulir */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+select, textarea, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Tombol kembali */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #020263;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

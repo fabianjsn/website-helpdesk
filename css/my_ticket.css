@@ -1,0 +1,83 @@
+/* Gaya umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbf9f9;
+    margin: 0;
+    padding: 20px;
+    color: #100303;
+}
+
+h1 {
+    text-align: center;
+    color: #0b0101;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #faf7f7;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #020263;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Gaya untuk tombol aksi */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #020263;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Tombol kembali ke dashboard */
+a[href="index.php"] {
+    background-color: #020263;
+    margin-top: 20px;
+}
+
+a[href="index.php"]:hover {
+    background-color: #0e0c0c;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    table th, table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
